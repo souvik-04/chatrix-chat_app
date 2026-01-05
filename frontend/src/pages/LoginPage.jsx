@@ -90,7 +90,7 @@ const LoginPage = () => {
                     />
                   </div>
 
-                  <button type="submit" className="btn btn-primary w-full" disabled={isPending}>
+                  <button type="submit" className="btn bg-blue-500 w-full hover:bg-blue-400" disabled={isPending}>
                     {isPending ? (
                       <>
                         <span className="loading loading-spinner loading-xs"></span>
